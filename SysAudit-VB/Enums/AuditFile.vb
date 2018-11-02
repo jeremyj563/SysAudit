@@ -1,0 +1,25 @@
+﻿Public Enum AuditFile
+    TimeStamp = 0
+    UserName = 1
+    ComputerName = 2
+    OsVersion = 3
+    ComputerDomain = 4
+    UserDomain = 5
+    LogonServer = 6
+    SystemType = 7
+    NetworkCard = 8
+    IpAddress = 9
+    SubnetMask = 10
+    DefaultGateway = 11
+    MacAddress = 12
+    NetworkSpeed = 13
+    NetworkType = 14
+    DhcpServer = 15
+    DnsServer = 16
+    Cpu = 17
+    Memory = 18
+    BootTime = 19
+    SnapshotTime = 20
+    Volumes = 21
+    FreeSpace = 22
+End Enum
