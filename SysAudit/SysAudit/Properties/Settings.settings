@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SysAudit.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionStringSQL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=SQL04;Database=SysAudit;Trusted_Connection=True;</Value>
+    </Setting>
+    <Setting Name="ITFolderLocalPathWithoutSystemDrive" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IT</Value>
+    </Setting>
+    <Setting Name="LogToLog4Net" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LogToConsole" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ConnectionStringAD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LDAP://DC=CITRIX-DCH,DC=LOCAL</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
